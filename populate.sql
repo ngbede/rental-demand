@@ -1,4 +1,3 @@
--- Active: 1668284066245@@melon-db-db00008305.mdb0002418.db1.skysql.net@5001@records
 INSERT INTO records.cities(name)
 VALUES ('Birchgrove'), ('Burry Green'), ('Caswell Bay'), ('Crofty'), ('Fairwood'), ('Felindre'), ('Garden Village'), ('Garngoch Industrial Estate'),
     ('Horton'), ('Ilston'), ('Kittle'), ('Knelston'), ('Landimore'), ('Landore'), ('Mayhill'), ('Middleton'), ('Murton'), ('Newton'), ('Norton'),
@@ -25,7 +24,6 @@ VALUES ('Simon','Moses',1 ,20 ,'01792 606000'), ('Angela','Rose', 2,18 ,'01792 6
 INSERT INTO records.landlords (first_name, last_name)
 VALUES ('Philip','Jamie'), ('Elizabeth', 'Holmes'), ('Lucia','Francia'), ('Olivia', 'James'), ('Kennedy', 'Johnston'), ('Elija', 'Aemond'),
 ('Philimon', 'Raymond'), ('Franco', 'James'), ('James', 'Lebrina'), ('Oshea', 'White');
-
 
 INSERT INTO records.rental_property (address, city_id, bedroom, bathroom, kitchen, monthly_cost, landlord_id, shared_accomodation, description, postcode)
 VALUES
@@ -58,4 +56,3 @@ VALUES (1, '2022-10-05'), (2, '2022-09-28'), (3, '2022-08-20'), (4, '2022-11-01'
 (22, '2022-09-24'), (23, '2022-11-11'), (24, '2022-11-17'), (25, '2022-10-25'), (26, '2022-09-19'), (27, '2022-10-23'), (28, '2022-10-27'),
 (29, '2022-11-03'), (30, '2022-10-12'), (31, '2022-08-24'), (32, '2022-08-25'), (33, '2022-07-28'), (34, '2022-06-30'), (35, '2022-09-22'),
 (36, '2022-10-01'), (37, '2022-11-07'), (38, '2022-09-15'), (39, '2022-07-14'), (40, '2022-10-01'), (41, '2022-11-02'), (42, '2022-09-12');
-
